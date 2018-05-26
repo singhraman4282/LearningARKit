@@ -13,6 +13,7 @@
 		F1D13BBE20B9C78A005ECB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D13BBD20B9C78A005ECB2C /* Assets.xcassets */; };
 		F1D13BC120B9C78A005ECB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D13BBF20B9C78A005ECB2C /* LaunchScreen.storyboard */; };
 		F1E2CC7320B9E35B00FC7FBC /* ARDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC7220B9E35B00FC7FBC /* ARDrawingViewController.swift */; };
+		F1E2CC7520B9EBE100FC7FBC /* SolarSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC7420B9EBE100FC7FBC /* SolarSystemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F1D13BC020B9C78A005ECB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1D13BC220B9C78A005ECB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E2CC7220B9E35B00FC7FBC /* ARDrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDrawingViewController.swift; sourceTree = "<group>"; };
+		F1E2CC7420B9EBE100FC7FBC /* SolarSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F1D13BB620B9C789005ECB2C /* AppDelegate.swift */,
 				F1D13BB820B9C789005ECB2C /* ViewController.swift */,
 				F1E2CC7220B9E35B00FC7FBC /* ARDrawingViewController.swift */,
+				F1E2CC7420B9EBE100FC7FBC /* SolarSystemViewController.swift */,
 				F1D13BBA20B9C789005ECB2C /* Main.storyboard */,
 				F1D13BBD20B9C78A005ECB2C /* Assets.xcassets */,
 				F1D13BBF20B9C78A005ECB2C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				F1D13BB920B9C789005ECB2C /* ViewController.swift in Sources */,
 				F1E2CC7320B9E35B00FC7FBC /* ARDrawingViewController.swift in Sources */,
 				F1D13BB720B9C789005ECB2C /* AppDelegate.swift in Sources */,
+				F1E2CC7520B9EBE100FC7FBC /* SolarSystemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
