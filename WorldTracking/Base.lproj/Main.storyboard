@@ -73,13 +73,39 @@
                     <view key="view" contentMode="scaleToFill" id="FMf-5A-ubn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipp-DT-Jxz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYr-cV-NFe">
+                                <rect key="frame" x="164" y="617" width="46" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="Oad-Ds-QnN"/>
+                                    <constraint firstAttribute="height" constant="30" id="OvS-6O-bxp"/>
+                                </constraints>
+                                <state key="normal" title="Draw"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AmU-hc-odT" firstAttribute="bottom" secondItem="JYr-cV-NFe" secondAttribute="bottom" constant="20" id="F5i-eU-IgW"/>
+                            <constraint firstItem="ipp-DT-Jxz" firstAttribute="leading" secondItem="AmU-hc-odT" secondAttribute="leading" id="HEi-sy-vTj"/>
+                            <constraint firstItem="ipp-DT-Jxz" firstAttribute="top" secondItem="FMf-5A-ubn" secondAttribute="top" id="Hri-hU-hmS"/>
+                            <constraint firstItem="JYr-cV-NFe" firstAttribute="centerX" secondItem="FMf-5A-ubn" secondAttribute="centerX" id="KzK-uw-ude"/>
+                            <constraint firstItem="ipp-DT-Jxz" firstAttribute="bottom" secondItem="AmU-hc-odT" secondAttribute="bottom" id="ZKV-lg-wNt"/>
+                            <constraint firstItem="ipp-DT-Jxz" firstAttribute="trailing" secondItem="AmU-hc-odT" secondAttribute="trailing" id="gta-Zk-ymh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="AmU-hc-odT"/>
                     </view>
+                    <connections>
+                        <outlet property="draw" destination="JYr-cV-NFe" id="87M-cs-MIG"/>
+                        <outlet property="sceneView" destination="ipp-DT-Jxz" id="IR5-dz-26p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Qb-MZ-5Ds" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="833" y="137"/>
+            <point key="canvasLocation" x="832.79999999999995" y="136.28185907046478"/>
         </scene>
     </scenes>
 </document>

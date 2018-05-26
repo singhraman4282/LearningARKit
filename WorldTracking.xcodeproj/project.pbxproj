@@ -58,11 +58,11 @@
 			children = (
 				F1D13BB620B9C789005ECB2C /* AppDelegate.swift */,
 				F1D13BB820B9C789005ECB2C /* ViewController.swift */,
+				F1E2CC7220B9E35B00FC7FBC /* ARDrawingViewController.swift */,
 				F1D13BBA20B9C789005ECB2C /* Main.storyboard */,
 				F1D13BBD20B9C78A005ECB2C /* Assets.xcassets */,
 				F1D13BBF20B9C78A005ECB2C /* LaunchScreen.storyboard */,
 				F1D13BC220B9C78A005ECB2C /* Info.plist */,
-				F1E2CC7220B9E35B00FC7FBC /* ARDrawingViewController.swift */,
 			);
 			path = WorldTracking;
 			sourceTree = "<group>";
