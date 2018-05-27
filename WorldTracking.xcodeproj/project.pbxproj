@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ACC62E17AE5D5D0C1A8AFC9 /* Pods_WorldTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A879C59F007E48DF7B249001 /* Pods_WorldTracking.framework */; };
 		F1D13BB720B9C789005ECB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D13BB620B9C789005ECB2C /* AppDelegate.swift */; };
 		F1D13BB920B9C789005ECB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D13BB820B9C789005ECB2C /* ViewController.swift */; };
 		F1D13BBC20B9C789005ECB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D13BBA20B9C789005ECB2C /* Main.storyboard */; };
@@ -14,9 +15,15 @@
 		F1D13BC120B9C78A005ECB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D13BBF20B9C78A005ECB2C /* LaunchScreen.storyboard */; };
 		F1E2CC7320B9E35B00FC7FBC /* ARDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC7220B9E35B00FC7FBC /* ARDrawingViewController.swift */; };
 		F1E2CC7520B9EBE100FC7FBC /* SolarSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC7420B9EBE100FC7FBC /* SolarSystemViewController.swift */; };
+		F1E2CC7720B9FE6000FC7FBC /* JellyFishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC7620B9FE6000FC7FBC /* JellyFishViewController.swift */; };
+		F1E2CC8020BA089F00FC7FBC /* Android_tex.tga in Resources */ = {isa = PBXBuildFile; fileRef = F1E2CC7E20BA089F00FC7FBC /* Android_tex.tga */; };
+		F1E2CC8420BA098300FC7FBC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E2CC8320BA098200FC7FBC /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F22A232585C4DA7162C52CA /* Pods-WorldTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldTracking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorldTracking/Pods-WorldTracking.debug.xcconfig"; sourceTree = "<group>"; };
+		A879C59F007E48DF7B249001 /* Pods_WorldTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18A7087138F26A99A0E9AEA /* Pods-WorldTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldTracking.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorldTracking/Pods-WorldTracking.release.xcconfig"; sourceTree = "<group>"; };
 		F1D13BB320B9C789005ECB2C /* WorldTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D13BB620B9C789005ECB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D13BB820B9C789005ECB2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		F1D13BC220B9C78A005ECB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E2CC7220B9E35B00FC7FBC /* ARDrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDrawingViewController.swift; sourceTree = "<group>"; };
 		F1E2CC7420B9EBE100FC7FBC /* SolarSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemViewController.swift; sourceTree = "<group>"; };
+		F1E2CC7620B9FE6000FC7FBC /* JellyFishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyFishViewController.swift; sourceTree = "<group>"; };
+		F1E2CC7E20BA089F00FC7FBC /* Android_tex.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Android_tex.tga; sourceTree = "<group>"; };
+		F1E2CC8320BA098200FC7FBC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACC62E17AE5D5D0C1A8AFC9 /* Pods_WorldTracking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		088F0A74379FD297E6643D60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F22A232585C4DA7162C52CA /* Pods-WorldTracking.debug.xcconfig */,
+				E18A7087138F26A99A0E9AEA /* Pods-WorldTracking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7F9798EBFAF0D5757A8A4CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A879C59F007E48DF7B249001 /* Pods_WorldTracking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1D13BAA20B9C789005ECB2C = {
 			isa = PBXGroup;
 			children = (
 				F1D13BB520B9C789005ECB2C /* WorldTracking */,
 				F1D13BB420B9C789005ECB2C /* Products */,
+				088F0A74379FD297E6643D60 /* Pods */,
+				D7F9798EBFAF0D5757A8A4CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +89,12 @@
 			isa = PBXGroup;
 			children = (
 				F1D13BB620B9C789005ECB2C /* AppDelegate.swift */,
+				F1E2CC7E20BA089F00FC7FBC /* Android_tex.tga */,
+				F1E2CC8320BA098200FC7FBC /* art.scnassets */,
 				F1D13BB820B9C789005ECB2C /* ViewController.swift */,
 				F1E2CC7220B9E35B00FC7FBC /* ARDrawingViewController.swift */,
 				F1E2CC7420B9EBE100FC7FBC /* SolarSystemViewController.swift */,
+				F1E2CC7620B9FE6000FC7FBC /* JellyFishViewController.swift */,
 				F1D13BBA20B9C789005ECB2C /* Main.storyboard */,
 				F1D13BBD20B9C78A005ECB2C /* Assets.xcassets */,
 				F1D13BBF20B9C78A005ECB2C /* LaunchScreen.storyboard */,
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1D13BC520B9C78A005ECB2C /* Build configuration list for PBXNativeTarget "WorldTracking" */;
 			buildPhases = (
+				69CCF855AAF33705312C9E00 /* [CP] Check Pods Manifest.lock */,
 				F1D13BAF20B9C789005ECB2C /* Sources */,
 				F1D13BB020B9C789005ECB2C /* Frameworks */,
 				F1D13BB120B9C789005ECB2C /* Resources */,
+				95FE6D8A8D54168D3378DDBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +165,52 @@
 			files = (
 				F1D13BC120B9C78A005ECB2C /* LaunchScreen.storyboard in Resources */,
 				F1D13BBE20B9C78A005ECB2C /* Assets.xcassets in Resources */,
+				F1E2CC8420BA098300FC7FBC /* art.scnassets in Resources */,
+				F1E2CC8020BA089F00FC7FBC /* Android_tex.tga in Resources */,
 				F1D13BBC20B9C789005ECB2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69CCF855AAF33705312C9E00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldTracking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95FE6D8A8D54168D3378DDBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WorldTracking/Pods-WorldTracking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Each/Each.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Each.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldTracking/Pods-WorldTracking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1D13BAF20B9C789005ECB2C /* Sources */ = {
@@ -143,6 +219,7 @@
 			files = (
 				F1D13BB920B9C789005ECB2C /* ViewController.swift in Sources */,
 				F1E2CC7320B9E35B00FC7FBC /* ARDrawingViewController.swift in Sources */,
+				F1E2CC7720B9FE6000FC7FBC /* JellyFishViewController.swift in Sources */,
 				F1D13BB720B9C789005ECB2C /* AppDelegate.swift in Sources */,
 				F1E2CC7520B9EBE100FC7FBC /* SolarSystemViewController.swift in Sources */,
 			);
@@ -286,16 +363,14 @@
 		};
 		F1D13BC620B9C78A005ECB2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F22A232585C4DA7162C52CA /* Pods-WorldTracking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UE52HE9BWK;
 				INFOPLIST_FILE = WorldTracking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Singh4282.WorldTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -305,16 +380,14 @@
 		};
 		F1D13BC720B9C78A005ECB2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18A7087138F26A99A0E9AEA /* Pods-WorldTracking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UE52HE9BWK;
 				INFOPLIST_FILE = WorldTracking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Singh4282.WorldTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
