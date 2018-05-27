@@ -18,6 +18,11 @@
 		F1E2CC7720B9FE6000FC7FBC /* JellyFishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC7620B9FE6000FC7FBC /* JellyFishViewController.swift */; };
 		F1E2CC8020BA089F00FC7FBC /* Android_tex.tga in Resources */ = {isa = PBXBuildFile; fileRef = F1E2CC7E20BA089F00FC7FBC /* Android_tex.tga */; };
 		F1E2CC8420BA098300FC7FBC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E2CC8320BA098200FC7FBC /* art.scnassets */; };
+		F1E2CC8620BA58C700FC7FBC /* FloorIsLava.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC8520BA58C700FC7FBC /* FloorIsLava.swift */; };
+		F1E2CC8820BB34D900FC7FBC /* IkeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC8720BB34D900FC7FBC /* IkeaViewController.swift */; };
+		F1E2CC8A20BB39D400FC7FBC /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC8920BB39D400FC7FBC /* ItemCell.swift */; };
+		F1E2CC9420BB3C3E00FC7FBC /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E2CC9320BB3C3E00FC7FBC /* Models.scnassets */; };
+		F1E2CC9620BB493500FC7FBC /* VehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC9520BB493500FC7FBC /* VehicleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		F1E2CC7620B9FE6000FC7FBC /* JellyFishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyFishViewController.swift; sourceTree = "<group>"; };
 		F1E2CC7E20BA089F00FC7FBC /* Android_tex.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Android_tex.tga; sourceTree = "<group>"; };
 		F1E2CC8320BA098200FC7FBC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F1E2CC8520BA58C700FC7FBC /* FloorIsLava.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorIsLava.swift; sourceTree = "<group>"; };
+		F1E2CC8720BB34D900FC7FBC /* IkeaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkeaViewController.swift; sourceTree = "<group>"; };
+		F1E2CC8920BB39D400FC7FBC /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		F1E2CC9320BB3C3E00FC7FBC /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		F1E2CC9520BB493500FC7FBC /* VehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 				F1E2CC7420B9EBE100FC7FBC /* SolarSystemViewController.swift */,
 				F1E2CC7620B9FE6000FC7FBC /* JellyFishViewController.swift */,
 				F1D13BBA20B9C789005ECB2C /* Main.storyboard */,
+				F1E2CC8720BB34D900FC7FBC /* IkeaViewController.swift */,
+				F1E2CC9320BB3C3E00FC7FBC /* Models.scnassets */,
+				F1E2CC8920BB39D400FC7FBC /* ItemCell.swift */,
+				F1E2CC8520BA58C700FC7FBC /* FloorIsLava.swift */,
+				F1E2CC9520BB493500FC7FBC /* VehicleViewController.swift */,
 				F1D13BBD20B9C78A005ECB2C /* Assets.xcassets */,
 				F1D13BBF20B9C78A005ECB2C /* LaunchScreen.storyboard */,
 				F1D13BC220B9C78A005ECB2C /* Info.plist */,
@@ -166,6 +181,7 @@
 				F1D13BC120B9C78A005ECB2C /* LaunchScreen.storyboard in Resources */,
 				F1D13BBE20B9C78A005ECB2C /* Assets.xcassets in Resources */,
 				F1E2CC8420BA098300FC7FBC /* art.scnassets in Resources */,
+				F1E2CC9420BB3C3E00FC7FBC /* Models.scnassets in Resources */,
 				F1E2CC8020BA089F00FC7FBC /* Android_tex.tga in Resources */,
 				F1D13BBC20B9C789005ECB2C /* Main.storyboard in Resources */,
 			);
@@ -217,9 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E2CC8A20BB39D400FC7FBC /* ItemCell.swift in Sources */,
+				F1E2CC9620BB493500FC7FBC /* VehicleViewController.swift in Sources */,
 				F1D13BB920B9C789005ECB2C /* ViewController.swift in Sources */,
 				F1E2CC7320B9E35B00FC7FBC /* ARDrawingViewController.swift in Sources */,
+				F1E2CC8620BA58C700FC7FBC /* FloorIsLava.swift in Sources */,
 				F1E2CC7720B9FE6000FC7FBC /* JellyFishViewController.swift in Sources */,
+				F1E2CC8820BB34D900FC7FBC /* IkeaViewController.swift in Sources */,
 				F1D13BB720B9C789005ECB2C /* AppDelegate.swift in Sources */,
 				F1E2CC7520B9EBE100FC7FBC /* SolarSystemViewController.swift in Sources */,
 			);
@@ -370,7 +390,10 @@
 				DEVELOPMENT_TEAM = UE52HE9BWK;
 				INFOPLIST_FILE = WorldTracking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Singh4282.WorldTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -387,7 +410,10 @@
 				DEVELOPMENT_TEAM = UE52HE9BWK;
 				INFOPLIST_FILE = WorldTracking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Singh4282.WorldTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
