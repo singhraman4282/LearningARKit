@@ -331,10 +331,24 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tvg-KG-EQm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eU-0G-S1m">
+                                <rect key="frame" x="20" y="617" width="82" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Tip-H7-g0z"/>
+                                    <constraint firstAttribute="width" constant="82" id="ix3-pd-ogo"/>
+                                </constraints>
+                                <state key="normal" title="Add Car"/>
+                                <connections>
+                                    <action selector="addCarClicked:" destination="SYs-0e-Rka" eventType="touchUpInside" id="iDa-Dq-P1A"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Tvg-KG-EQm" firstAttribute="top" secondItem="JqI-hm-Vbg" secondAttribute="top" id="5Ac-TN-Xc6"/>
+                            <constraint firstItem="RvN-Ob-Ukw" firstAttribute="bottom" secondItem="9eU-0G-S1m" secondAttribute="bottom" constant="20" id="IT6-jN-vL3"/>
+                            <constraint firstItem="9eU-0G-S1m" firstAttribute="leading" secondItem="RvN-Ob-Ukw" secondAttribute="leading" constant="20" id="Nmq-0j-R8G"/>
                             <constraint firstItem="Tvg-KG-EQm" firstAttribute="trailing" secondItem="RvN-Ob-Ukw" secondAttribute="trailing" id="V1h-Jb-HtJ"/>
                             <constraint firstItem="Tvg-KG-EQm" firstAttribute="leading" secondItem="RvN-Ob-Ukw" secondAttribute="leading" id="qNj-Aw-nNC"/>
                             <constraint firstItem="Tvg-KG-EQm" firstAttribute="bottom" secondItem="RvN-Ob-Ukw" secondAttribute="bottom" id="sXZ-YQ-CmF"/>
@@ -342,12 +356,12 @@
                         <viewLayoutGuide key="safeArea" id="RvN-Ob-Ukw"/>
                     </view>
                     <connections>
-                        <outlet property="sceneView" destination="Tvg-KG-EQm" id="nVG-8B-yAk"/>
+                        <outlet property="sceneView" destination="Tvg-KG-EQm" id="VJR-c1-Off"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vqb-y4-JZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5002" y="134"/>
+            <point key="canvasLocation" x="5000.8000000000002" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
