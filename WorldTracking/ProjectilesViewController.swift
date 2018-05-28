@@ -73,7 +73,7 @@ class ProjectilesViewController: UIViewController, ARSCNViewDelegate {
         DispatchQueue.main.async {
             self.planeDetected.isHidden = false
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
             self.planeDetected.isHidden = true
         }
         

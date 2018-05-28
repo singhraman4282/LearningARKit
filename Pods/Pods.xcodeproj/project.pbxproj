@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		0D1899293CF2DBB4FC8A78CF34118DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18179AC8819190AB6E4D039A87174A1D /* Each-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Each-umbrella.h"; sourceTree = "<group>"; };
-		20E291439A5D71C4E77DB66E2A5AEDA1 /* Each.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Each.framework; path = Each.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E291439A5D71C4E77DB66E2A5AEDA1 /* Each.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Each.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DC77377115D0C427410BDE60E5315E /* Each-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Each-dummy.m"; sourceTree = "<group>"; };
 		48C9D1EE676508FFE93CF92F7E9E5439 /* Each-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Each-prefix.pch"; sourceTree = "<group>"; };
 		4978EE705D5C621821B67F70CE7D5155 /* Pods-WorldTracking-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldTracking-resources.sh"; sourceTree = "<group>"; };
@@ -38,9 +38,9 @@
 		6789A7128194CDCDE2859EDF1B0D3C58 /* Pods-WorldTracking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldTracking-umbrella.h"; sourceTree = "<group>"; };
 		8D5860825363E7D4709989762509540E /* Pods-WorldTracking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorldTracking.modulemap"; sourceTree = "<group>"; };
 		8D97C8EEAF3DC891EC83EC13F78E38C4 /* Pods-WorldTracking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldTracking-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9559882807155A48EA41735EDF4EC78A /* Each.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Each.modulemap; sourceTree = "<group>"; };
-		C95BFF7834B9A00BD7279697906886DB /* Pods_WorldTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WorldTracking.framework; path = "Pods-WorldTracking.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95BFF7834B9A00BD7279697906886DB /* Pods_WorldTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Each.xcconfig; sourceTree = "<group>"; };
 		E3AD147CB0E424D26249B66851A45BF5 /* Pods-WorldTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldTracking.debug.xcconfig"; sourceTree = "<group>"; };
 		E95E4D5330A2E06EDC07C4C788C842A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,7 +87,6 @@
 				EBF99B90B4BBBDAC7744431A842BA82E /* Each.swift */,
 				E26EC9BA0D40C184DA63B46621A36575 /* Support Files */,
 			);
-			name = Each;
 			path = Each;
 			sourceTree = "<group>";
 		};

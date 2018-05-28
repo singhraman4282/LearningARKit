@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DCy-5x-kDf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lM3-Xl-fdl">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -414,6 +414,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jTq-y9-SzA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5904.8000000000002" y="139.880059970015"/>
+        </scene>
+        <!--Shooter View Controller-->
+        <scene sceneID="kv3-R9-Tm9">
+            <objects>
+                <viewController id="lM3-Xl-fdl" customClass="ShooterViewController" customModule="WorldTracking" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lhL-Ki-fD7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q8K-uk-BFc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEQ-h1-u2E">
+                                <rect key="frame" x="175.5" y="321.5" width="24" height="24"/>
+                                <state key="normal" image="plus"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqy-8D-TP2">
+                                <rect key="frame" x="134" y="607" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OgG-i9-rRY"/>
+                                    <constraint firstAttribute="width" constant="106" id="Ojd-H4-xDJ"/>
+                                </constraints>
+                                <state key="normal" title="Add Target"/>
+                                <connections>
+                                    <action selector="addTargetButtonClicked:" destination="lM3-Xl-fdl" eventType="touchUpInside" id="m6J-a9-yAr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="q8K-uk-BFc" firstAttribute="trailing" secondItem="rQK-Uk-Rca" secondAttribute="trailing" id="4Kl-qS-Ffp"/>
+                            <constraint firstItem="q8K-uk-BFc" firstAttribute="leading" secondItem="rQK-Uk-Rca" secondAttribute="leading" id="dxh-KP-e1m"/>
+                            <constraint firstItem="qqy-8D-TP2" firstAttribute="centerX" secondItem="lhL-Ki-fD7" secondAttribute="centerX" id="fev-13-CxZ"/>
+                            <constraint firstItem="q8K-uk-BFc" firstAttribute="top" secondItem="lhL-Ki-fD7" secondAttribute="top" id="fqF-jT-OnI"/>
+                            <constraint firstItem="aEQ-h1-u2E" firstAttribute="centerY" secondItem="lhL-Ki-fD7" secondAttribute="centerY" id="ih7-kO-a4c"/>
+                            <constraint firstItem="aEQ-h1-u2E" firstAttribute="centerX" secondItem="lhL-Ki-fD7" secondAttribute="centerX" id="qlM-i3-WUt"/>
+                            <constraint firstItem="q8K-uk-BFc" firstAttribute="bottom" secondItem="rQK-Uk-Rca" secondAttribute="bottom" id="s2z-r4-i96"/>
+                            <constraint firstItem="rQK-Uk-Rca" firstAttribute="bottom" secondItem="qqy-8D-TP2" secondAttribute="bottom" constant="30" id="uOf-kT-Ug3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rQK-Uk-Rca"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="q8K-uk-BFc" id="CKn-gj-NZ2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDP-6s-J0n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6944.8000000000002" y="116.49175412293854"/>
         </scene>
     </scenes>
     <resources>

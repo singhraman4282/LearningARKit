@@ -26,6 +26,8 @@
 		F1E2CC9820BB4FEF00FC7FBC /* Car-Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = F1E2CC9720BB4FEF00FC7FBC /* Car-Scene.scn */; };
 		F1E2CC9C20BB673600FC7FBC /* ProjectilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CC9B20BB673600FC7FBC /* ProjectilesViewController.swift */; };
 		F1E2CCA020BB6C0E00FC7FBC /* Basketball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E2CC9F20BB6C0E00FC7FBC /* Basketball.scnassets */; };
+		F1E2CCA220BB86C600FC7FBC /* ShooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2CCA120BB86C600FC7FBC /* ShooterViewController.swift */; };
+		F1E2CCA620BB87C500FC7FBC /* Eggs.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E2CCA520BB87C500FC7FBC /* Eggs.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		F1E2CC9720BB4FEF00FC7FBC /* Car-Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Car-Scene.scn"; sourceTree = "<group>"; };
 		F1E2CC9B20BB673600FC7FBC /* ProjectilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectilesViewController.swift; sourceTree = "<group>"; };
 		F1E2CC9F20BB6C0E00FC7FBC /* Basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Basketball.scnassets; sourceTree = "<group>"; };
+		F1E2CCA120BB86C600FC7FBC /* ShooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShooterViewController.swift; sourceTree = "<group>"; };
+		F1E2CCA520BB87C500FC7FBC /* Eggs.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Eggs.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +121,11 @@
 				F1E2CC8520BA58C700FC7FBC /* FloorIsLava.swift */,
 				F1E2CC9520BB493500FC7FBC /* VehicleViewController.swift */,
 				F1D13BBA20B9C789005ECB2C /* Main.storyboard */,
+				F1E2CCA120BB86C600FC7FBC /* ShooterViewController.swift */,
 				F1E2CC9F20BB6C0E00FC7FBC /* Basketball.scnassets */,
 				F1E2CC9B20BB673600FC7FBC /* ProjectilesViewController.swift */,
 				F1E2CC9720BB4FEF00FC7FBC /* Car-Scene.scn */,
+				F1E2CCA520BB87C500FC7FBC /* Eggs.scnassets */,
 				F1D13BBD20B9C78A005ECB2C /* Assets.xcassets */,
 				F1D13BBF20B9C78A005ECB2C /* LaunchScreen.storyboard */,
 				F1D13BC220B9C78A005ECB2C /* Info.plist */,
@@ -195,6 +201,7 @@
 				F1E2CC8020BA089F00FC7FBC /* Android_tex.tga in Resources */,
 				F1D13BBC20B9C789005ECB2C /* Main.storyboard in Resources */,
 				F1E2CC9820BB4FEF00FC7FBC /* Car-Scene.scn in Resources */,
+				F1E2CCA620BB87C500FC7FBC /* Eggs.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E2CCA220BB86C600FC7FBC /* ShooterViewController.swift in Sources */,
 				F1E2CC8A20BB39D400FC7FBC /* ItemCell.swift in Sources */,
 				F1E2CC9620BB493500FC7FBC /* VehicleViewController.swift in Sources */,
 				F1D13BB920B9C789005ECB2C /* ViewController.swift in Sources */,
