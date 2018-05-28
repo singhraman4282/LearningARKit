@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SYs-0e-Rka">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DCy-5x-kDf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -363,5 +363,60 @@
             </objects>
             <point key="canvasLocation" x="5000.8000000000002" y="133.5832083958021"/>
         </scene>
+        <!--Projectiles View Controller-->
+        <scene sceneID="HcT-xM-pj6">
+            <objects>
+                <viewController id="DCy-5x-kDf" customClass="ProjectilesViewController" customModule="WorldTracking" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ejC-OU-hns">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DBi-Pn-ZGt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGJ-xu-zhV">
+                                <rect key="frame" x="139.5" y="318" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="NB1-vo-Dlz"/>
+                                    <constraint firstAttribute="height" constant="30" id="u3m-8q-0Ng"/>
+                                </constraints>
+                                <state key="normal" image="plus"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plane Detected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjr-Qw-2g7">
+                                <rect key="frame" x="59" y="40" width="257" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1SX-qu-7nr"/>
+                                    <constraint firstAttribute="width" constant="257" id="GsX-Ka-O2e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <color key="textColor" red="0.27534232149999999" green="0.78194497699999999" blue="0.3952927919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PGJ-xu-zhV" firstAttribute="centerY" secondItem="ejC-OU-hns" secondAttribute="centerY" id="2Jj-NV-Nao"/>
+                            <constraint firstItem="DBi-Pn-ZGt" firstAttribute="top" secondItem="ejC-OU-hns" secondAttribute="top" id="2Wz-xH-nQR"/>
+                            <constraint firstItem="DBi-Pn-ZGt" firstAttribute="trailing" secondItem="eZC-gJ-SAN" secondAttribute="trailing" id="4W5-zu-euM"/>
+                            <constraint firstItem="PGJ-xu-zhV" firstAttribute="centerX" secondItem="ejC-OU-hns" secondAttribute="centerX" id="9pH-VJ-kh3"/>
+                            <constraint firstItem="qjr-Qw-2g7" firstAttribute="centerX" secondItem="ejC-OU-hns" secondAttribute="centerX" id="LTl-l8-zyK"/>
+                            <constraint firstItem="DBi-Pn-ZGt" firstAttribute="leading" secondItem="eZC-gJ-SAN" secondAttribute="leading" id="VXP-xs-1R4"/>
+                            <constraint firstItem="DBi-Pn-ZGt" firstAttribute="bottom" secondItem="eZC-gJ-SAN" secondAttribute="bottom" id="mSA-a3-Xy8"/>
+                            <constraint firstItem="qjr-Qw-2g7" firstAttribute="top" secondItem="eZC-gJ-SAN" secondAttribute="top" constant="20" id="vO7-nE-dPs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eZC-gJ-SAN"/>
+                    </view>
+                    <connections>
+                        <outlet property="planeDetected" destination="qjr-Qw-2g7" id="kxj-Ts-vYt"/>
+                        <outlet property="sceneView" destination="DBi-Pn-ZGt" id="aqV-8p-6Wn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jTq-y9-SzA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5904.8000000000002" y="139.880059970015"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="plus" width="24" height="24"/>
+    </resources>
 </document>
